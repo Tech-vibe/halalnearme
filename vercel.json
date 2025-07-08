@@ -1,12 +1,12 @@
 {
   "build": {
-    "command": "npm install && npm run build",
+    "command": "npm install --no-frozen-lockfile && npm run build",
     "env": {
       "NODE_VERSION": "18"
     },
     "development": false
   },
-  "installCommand": "npm install",
+  "installCommand": "npm install --no-frozen-lockfile",
   "buildCommand": "npm run build",
   "outputDirectory": "out",
   "framework": "next.js",

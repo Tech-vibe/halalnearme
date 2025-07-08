@@ -1,2 +1,9 @@
 pnpm-lock.yaml
 pnpm-store
+.pnpm-store
+.pnpm
+pnpm-lock.json
+.pnpm-lock.yaml
+# Force npm usage
+package-lock.json
+npm-shrinkwrap.json
