@@ -3,9 +3,12 @@
     "command": "npm install && npm run build",
     "env": {
       "NODE_VERSION": "18"
-    }
+    },
+    "development": false
   },
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "outputDirectory": "out"
+  "outputDirectory": "out",
+  "framework": "next.js",
+  "version": 2
 }
